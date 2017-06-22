@@ -27,5 +27,13 @@ git clone https://github.com/riywo/ndenv ~/.ndenv
 
 brew install rbenv ruby-build
 
-``` 
+```
+
+# install neovim, dein
+```bash
+brew install neovim/neovim/neovim
+
+mkdir -p ~/.config/nvim/dein/repos/github.com/Shougo/dein.vim
+git clone https://github.com/Shougo/dein.vim ~/.config/nvim/dein/repos/github.com/Shougo/dein.vim
+```
 

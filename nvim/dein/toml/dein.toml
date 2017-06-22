@@ -1,0 +1,4 @@
+# 一般設定
+
+[[plugins]]
+repo = 'nanotech/jellybeans.vim'

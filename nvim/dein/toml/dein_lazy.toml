@@ -1,0 +1,15 @@
+# 言語設定
+[[plugins]]
+repo = 'slim-template/vim-slim'
+on_path = '.slim'
+
+[[plugins]]
+repo = 'petdance/vim-perl'
+on_fr = 'perl'
+
+# 一般設定
+
+[[plugins]]
+repo = 'Shougo/neocomplete'
+insert = 1
+
