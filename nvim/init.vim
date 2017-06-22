@@ -58,6 +58,12 @@ if has("autocmd")
   filetype plugin on
   "ファイルタイプに合わせたインデントを利用
   filetype indent on
+  augroup filetypedetect
+    autocmd! BufNewFile,BufRead *.t setf perl
+    autocmd! BufNewFile,BufRead *.psgi setf perl
+    autocmd! BufNewFile,BufRead *.tt setf tt2html
+  augroup END
+
   "sw=softtabstop, sts=shiftwidth, ts=tabstop, et=expandtabの略
   autocmd FileType c           setlocal sw=4 sts=4 ts=4 et
   autocmd FileType html        setlocal sw=4 sts=4 ts=4 et
