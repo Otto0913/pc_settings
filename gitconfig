@@ -1,0 +1,16 @@
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	w = whatchanged
+	b = branch
+	url = config --get remote.origin.url
+	graph = log --graph -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
+[color]
+	diff = auto
+	interactive = auto
+	status = auto
+	branch = auto
+[push]
+	default = tracking
+
